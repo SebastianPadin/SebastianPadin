@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendTransaction",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MetaMaskDemo.sol": "Transaction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MetaMaskDemo.sol": {
+			"keccak256": "0x31abbb84f00b705ad75dd36df4e786fd3604bacb5d148cc598658d03f6025470",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://be0f1ea39f0e0da5e81a3eaf3d10ed4b1dc5b506e925780a686c3d6097884395",
+				"dweb:/ipfs/QmNzqsyQrimbdTVnx3haKSqNX3ani3tbmDtedvpUnSX2dc"
+			]
+		}
+	},
+	"version": 1
+}

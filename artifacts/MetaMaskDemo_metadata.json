@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MetaMaskDemo.sol": "MetaMaskDemo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MetaMaskDemo.sol": {
+			"keccak256": "0xbbcb76d11eb28708194418b6515386b2c3c569f75d953eac15ddc97cff1fb8ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a06720816a2ec172b644cfff7ff7c47ea6d0d41eab8867844db8086f8b8c236c",
+				"dweb:/ipfs/QmYQDzRXvUUVkvhW72rNjwwRCTKjqRzH2CiJVFu3zDsHw1"
+			]
+		}
+	},
+	"version": 1
+}
